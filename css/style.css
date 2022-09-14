@@ -66,3 +66,32 @@ tr:nth-of-type(odd) {
     background-color: rgb(255, 123, 0);
     color: #fff;
 }
+.btn.add {
+    background-color: rgba(80, 80, 194, 0.884);
+    color: #fff;
+    margin: 10px;
+    margin-left: 92%;
+}
+.inputTd {
+    position: relative;
+    height: 30px;
+}
+.inputField {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    height: 30px;
+    box-sizing: border-box;
+    width: 90%;
+    padding: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.redBorder {
+    border: 1px solid red;
+    border-radius: 4px;
+}
+.redBorder:focus {
+    outline-color: red;
+}
